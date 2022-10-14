@@ -1,0 +1,100 @@
+2022-10-14 14:54:59,879 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-10-14 14:59:25,340 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2022-10-14 14:59:53,258 INFO com.example.demo.com.example.demo.DemoApplication [main] Starting DemoApplication using Java 17.0.4.1 on LP014034 with PID 1724 (C:\Users\radheshyam.bagwan_sp\Documents\springboot\demo\target\classes started by radheshyam.bagwan_sp in C:\Users\radheshyam.bagwan_sp\Documents\springboot\demo)
+2022-10-14 14:59:53,260 INFO com.example.demo.com.example.demo.DemoApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-14 14:59:54,264 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2022-10-14 14:59:54,275 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-10-14 14:59:54,275 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-14 14:59:54,386 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-10-14 14:59:54,387 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1084 ms
+2022-10-14 14:59:54,690 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2022-10-14 14:59:54,694 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2022-10-14 14:59:54,708 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-14 14:59:54,722 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2022-10-14 15:00:09,673 INFO com.example.demo.com.example.demo.DemoApplication [main] Starting DemoApplication using Java 17.0.4.1 on LP014034 with PID 19312 (C:\Users\radheshyam.bagwan_sp\Documents\springboot\demo\target\classes started by radheshyam.bagwan_sp in C:\Users\radheshyam.bagwan_sp\Documents\springboot\demo)
+2022-10-14 15:00:09,675 INFO com.example.demo.com.example.demo.DemoApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-14 15:00:10,599 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2022-10-14 15:00:10,608 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-10-14 15:00:10,608 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-14 15:00:10,712 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-10-14 15:00:10,713 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 989 ms
+2022-10-14 15:00:11,063 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2022-10-14 15:00:11,072 INFO com.example.demo.com.example.demo.DemoApplication [main] Started DemoApplication in 1.775 seconds (JVM running for 2.331)
+2022-10-14 15:00:11,076 INFO com.example.demo.com.example.demo.DemoApplication [main] This is my Logger Implementation
+2022-10-14 15:02:07,436 INFO com.example.demo.com.example.demo.DemoApplication [main] Starting DemoApplication using Java 17.0.4.1 on LP014034 with PID 16488 (C:\Users\radheshyam.bagwan_sp\Documents\springboot\demo\target\classes started by radheshyam.bagwan_sp in C:\Users\radheshyam.bagwan_sp\Documents\springboot\demo)
+2022-10-14 15:02:07,439 INFO com.example.demo.com.example.demo.DemoApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-14 15:02:08,318 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2022-10-14 15:02:08,367 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-10-14 15:02:08,375 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-14 15:02:08,509 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-10-14 15:02:08,509 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1021 ms
+2022-10-14 15:02:08,855 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8085 is already in use
+2022-10-14 15:02:08,869 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2022-10-14 15:02:08,896 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-14 15:02:08,914 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8085 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8085 or configure this application to listen on another port.
+
+2022-10-14 15:02:35,043 INFO com.example.demo.com.example.demo.DemoApplication [main] Starting DemoApplication using Java 17.0.4.1 on LP014034 with PID 21900 (C:\Users\radheshyam.bagwan_sp\Documents\springboot\demo\target\classes started by radheshyam.bagwan_sp in C:\Users\radheshyam.bagwan_sp\Documents\springboot\demo)
+2022-10-14 15:02:35,045 INFO com.example.demo.com.example.demo.DemoApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-14 15:02:35,940 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8089 (http)
+2022-10-14 15:02:35,957 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-10-14 15:02:35,963 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-14 15:02:36,079 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-10-14 15:02:36,080 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 984 ms
+2022-10-14 15:02:36,434 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8089 (http) with context path ''
+2022-10-14 15:02:36,454 INFO com.example.demo.com.example.demo.DemoApplication [main] Started DemoApplication in 1.73 seconds (JVM running for 2.157)
+2022-10-14 15:02:36,458 INFO com.example.demo.com.example.demo.DemoApplication [main] This is my Logger Implementation
